@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/vec-app/static/css/main.23058d01.css",
+    "main.js": "/vec-app/static/js/main.72d5730d.js",
+    "static/js/787.47d62651.chunk.js": "/vec-app/static/js/787.47d62651.chunk.js",
+    "static/media/Foguete.png": "/vec-app/static/media/Foguete.0b879c8f9df091f2b26f.png",
+    "static/media/logovec.webp": "/vec-app/static/media/logovec.9fc0ca1e5f613cb31166.webp",
+    "index.html": "/vec-app/index.html",
+    "main.23058d01.css.map": "/vec-app/static/css/main.23058d01.css.map",
+    "main.72d5730d.js.map": "/vec-app/static/js/main.72d5730d.js.map",
+    "787.47d62651.chunk.js.map": "/vec-app/static/js/787.47d62651.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.23058d01.css",
+    "static/js/main.72d5730d.js"
+  ]
+}
