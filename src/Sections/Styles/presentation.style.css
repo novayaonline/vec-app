@@ -1,0 +1,81 @@
+@import url('../../Variables.css');
+
+#presentation {
+    height: 70vh;
+    min-height: 600px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+#presentation .text-box-presentation {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+#presentation .text-box-presentation h1 {
+    font-size: 4.5rem;
+    text-align: left;
+    font-weight: bolder;
+    color: var(--color-blue-1);
+}
+
+#presentation .text-box-presentation p {
+    color: var(--color-blue-1);
+    font-size: 1.1rem;
+}
+
+#presentation .text-box-presentation a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    background-color: var(--color-blue-1);
+    color: var(--color-white);
+    width: 210px;
+    height: 40px;
+    border-radius: 10px;
+    display: grid;
+    place-items: center;
+    transition: transform 1s;
+
+    &:hover {
+        transition: transform .2s;
+        transform: scale(1.1);
+    }
+}
+
+#presentation .img-box-presentation {
+    height: 500px;
+    width: 450px;
+    transition: transform 1s;
+    
+    &:hover {
+        transition: transform .2s;
+        transform: scale(1.05);
+    }
+}
+
+#presentation .img-box-presentation img {
+    height: 100%;
+    width: 100%;
+    transform: translateY(0px);
+    animation: float 5s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}

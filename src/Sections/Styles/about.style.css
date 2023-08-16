@@ -1,0 +1,91 @@
+@import url('../../Variables.css');
+
+#about {
+    height: 60vh;
+    min-height: 600px;
+    width: 100vw;
+    background-color: var(--color-blue-2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#about .box-card-about {
+    height: 0%;
+    max-height: 800px;
+    min-height: 400px;
+    width: 100%;
+    min-width: 1400px;
+    max-width: 2000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#about .box-card-about .card-about {
+    width: 70%;
+    height: 90%;
+    display: flex;
+    background-color: var(--color-white);
+}
+
+#about .box-card-about .card-about .button-container{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+#about .box-card-about .card-about .button-container button {
+    height: 150px;
+    width: 100%;
+    border: none;
+    border-radius: 0 15px 15px 0;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: var(--color-white);
+    transition: all .5s;
+}
+    #about .box-card-about .card-about .button-container button:nth-child(1) {
+        background-color: #75b9b4;
+    } 
+
+    #about .box-card-about .card-about .button-container button:nth-child(2) {
+        background-color: #a1cecb;
+    } 
+
+    #about .box-card-about .card-about .button-container button:nth-child(3) {
+        background-color: #a1cecb;
+    } 
+
+    #about .box-card-about .card-about .button-container button:nth-child(4) {
+        background-color: #c0dbd9;
+    } 
+
+#about .box-card-about .card-about .button-container button.active {
+    background-color: var(--cor-7);
+    color: var(--color-blue-3);
+}
+
+#about .box-card-about .card-about .info-container {
+    height: 100%;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#about .box-card-about .card-about .info-container .info-text-box {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    #about .box-card-about .card-about .info-container .info-text-box .info {
+        font-size: 1.5rem;
+        color: var(--color-blue-3);
+    }

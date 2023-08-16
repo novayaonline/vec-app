@@ -1,0 +1,32 @@
+@import url('../../Variables.css');
+
+#navbar {
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#navbar .menu-itens-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#navbar .menu-itens-navbar .itens-navbar {
+    list-style: none;
+}
+#navbar .menu-itens-navbar .itens-navbar a{
+    color: var(--color-blue-3);
+    text-decoration: none;
+}
+
+
+#navbar .img-box-navbar {
+    height: 80%;
+}
+
+#navbar .img-box-navbar img {
+    height: 100%;
+}
