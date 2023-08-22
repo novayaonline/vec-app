@@ -6,6 +6,8 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 import { AiOutlineArrowLeft } from "react-icons/ai";
 
 const Courses = () => {
+    const containerRef = useRef<HTMLDivElement | null>(null);
+    const [containerWidth, setContainerWidth] = useState<number>(0);
 
     interface CardCourseProps {
         img: string;
@@ -32,9 +34,6 @@ const Courses = () => {
             </a>
         );
     };
-
-    const containerRef = useRef<HTMLDivElement | null>(null);
-    const [containerWidth, setContainerWidth] = useState<number>(0);
 
     const handleNextClick = () => {
         if (containerRef.current) {
@@ -70,7 +69,7 @@ const Courses = () => {
                 <p>Apresentação de soluções educacionais em temas relevantes e atuais para a comunidade a nível de educação e gestão do conhecimento.</p>
             </div>
             <div className='courses-container'>
-                <div ref={containerRef} className="container courses-box-courses"> 
+                <div ref={containerRef} className="courses-box-courses"> 
                     {createCardCourse({
                         img: whiteFrame,
                         cOnline: "Curso 100% Online",

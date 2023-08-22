@@ -1,9 +1,168 @@
-@import url('../../Variables.css');
-
 #feedbacks {
-    height: 100vh;
-    width: 100vw;
+    height: 50vh;
+    min-height: 450px;
     background-color: var(--color-blue-2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+#feedbacks .text-box-feedbacks {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#feedbacks .text-box-feedbacks h2 {
+    color: var(--color-blue-1);
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+#feedbacks .text-box-feedbacks p {
+    font-size: 1.3rem;
+    width: 100%;
+    color: var(--color-blue-1);
+    text-align: center;
+}
+
+#feedbacks .feedbacks-container { 
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#feedbacks .feedbacks-container .navigate-btns-box {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+#feedbacks .feedbacks-container .navigate-btns-box button {
+    background-color: transparent;
+    border: none;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+
+#feedbacks .feedbacks-container .navigate-btns-box button svg {
+    height: 100%;
+    width: 100%;
+    color: var(--color-white);
+}
+
+
+#feedbacks .feedbacks-box-feedbacks {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+    padding: 10px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    position: relative;
+}
+
+#feedbacks .feedbacks-box-feedbacks::-webkit-scrollbar {
+    display: none;
+} 
+
+#feedbacks .feedbacks-box-feedbacks .Navigation-btn {
+    position: absolute;
+    z-index: 3;
+}
+
+#feedbacks .feedbacks-box-feedbacks .Navigation-btn:nth-child(2) {
+    right: 0;
+    transform: rotate(180deg);
+}
+
+
+#feedbacks .box-feedback {
+    height: 150px;
+    width: 300px;
+    min-width: 300px;
+    border-radius: 10px;
+    background-color: var(--color-white);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 5px;
+    transition: all 1s;
+
+
+    &:hover {
+        transition: all .2s;
+        transform: scale(1.03);
+    }
+
+}
+
+#feedbacks .box-feedback .feedback-dades {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#feedbacks .box-feedback .feedback-dades .feedback-img-box {
+    height: 50px;
+    width: 50px;
+}
+
+#feedbacks .box-feedback .feedback-dades .feedback-img-box img {
+    width: 100%;
+    height: 100%;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#feedbacks .box-feedback .feedback-dades .feedback-tittle {
+}
+
+#feedbacks .box-feedback .feedback-dades .feedback-tittle .title-name {
+    font-size: 1rem;
+}
+
+#feedbacks .box-feedback .feedback-dades .feedback-tittle .title-location {
+    font-size: .7rem;
+}
+
+#feedbacks .box-feedback .feedback-dades .feedback-note-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+#feedbacks .box-feedback .feedback-dades .feedback-note-box svg {
+    height: 20px;
+    width: 20px;
+    color: #ffe500;
+}
+
+#feedbacks .box-feedback .feedback-dades .feedback-note-box p {
+    font-size: 1rem;
+}
+
+#feedbacks .box-feedback .feedback-text {
+    height: fit-content;
     display: grid;
     place-items: center;
+}
+
+#feedbacks .box-feedback .feedback-text p {
+    font-size: .9rem;
 }

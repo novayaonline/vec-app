@@ -65,7 +65,7 @@
     align-items: center;
     justify-content: flex-start;
     gap: 50px;
-    padding: 10px 0px;
+    padding: 10px;
     overflow-x: auto;
     scroll-behavior: smooth;
     position: relative;
