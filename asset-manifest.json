@@ -1,19 +1,18 @@
 {
   "files": {
-    "main.css": "/vec-app/static/css/main.20aab0b9.css",
-    "main.js": "/vec-app/static/js/main.ab22a994.js",
+    "main.css": "/vec-app/static/css/main.70576753.css",
+    "main.js": "/vec-app/static/js/main.607c2535.js",
     "static/js/787.47d62651.chunk.js": "/vec-app/static/js/787.47d62651.chunk.js",
     "static/media/Foguete.png": "/vec-app/static/media/Foguete.0b879c8f9df091f2b26f.png",
-    "static/media/videoframe.png": "/vec-app/static/media/videoframe.eb35d474e964c06d02ab.png",
     "static/media/whiteframe.png": "/vec-app/static/media/whiteframe.ca5fdb809ba6e60c4b66.png",
     "static/media/logovec.webp": "/vec-app/static/media/logovec.9fc0ca1e5f613cb31166.webp",
     "index.html": "/vec-app/index.html",
-    "main.20aab0b9.css.map": "/vec-app/static/css/main.20aab0b9.css.map",
-    "main.ab22a994.js.map": "/vec-app/static/js/main.ab22a994.js.map",
+    "main.70576753.css.map": "/vec-app/static/css/main.70576753.css.map",
+    "main.607c2535.js.map": "/vec-app/static/js/main.607c2535.js.map",
     "787.47d62651.chunk.js.map": "/vec-app/static/js/787.47d62651.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.20aab0b9.css",
-    "static/js/main.ab22a994.js"
+    "static/css/main.70576753.css",
+    "static/js/main.607c2535.js"
   ]
 }
