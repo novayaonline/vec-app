@@ -4,6 +4,8 @@ import About from '../Sections/About';
 import CoursesAndSolutions from '../Sections/CoursesAndSolutions';
 import VideoPresentation from '../Sections/VideoPresentation';
 import Courses from '../Sections/Courses';
+import Feedbacks from '../Sections/Feedbacks';
+import Contact from '../Sections/Contact';
 
 const Home = () => {
     return (
@@ -13,6 +15,8 @@ const Home = () => {
            <CoursesAndSolutions />
            <VideoPresentation />
            <Courses />
+           <Feedbacks />
+           <Contact />
         </div>
     );
 };
