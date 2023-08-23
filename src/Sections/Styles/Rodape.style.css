@@ -1,0 +1,70 @@
+@import url('../../Variables.css');
+
+#rodape {
+    height: 350px;
+    background-color: var(--color-blue-1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+#rodape .vec-box {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+#rodape .vec-box .img-box-rodape {
+    height: 150px;
+}
+
+#rodape .vec-box .img-box-rodape img {
+    height: 100%;
+}
+
+#rodape .vec-box .dados-vec-rodape {
+    width: 350px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#rodape .vec-box .dados-vec-rodape > div {
+    display: flex;
+    gap: 20px;
+}
+
+#rodape .vec-box .dados-vec-rodape p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    color: var(--color-white);
+}
+
+#rodape .vec-rodape {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 3px;
+}
+
+#rodape .vec-rodape h4 {
+    margin-bottom: 20px;
+    color: var(--color-white);
+    font-size: 1.2rem;
+}
+
+#rodape .vec-rodape a {
+    text-decoration: none;
+    color: var(--color-white);
+    font-size: 1rem;
+    max-width: 250px;
+}

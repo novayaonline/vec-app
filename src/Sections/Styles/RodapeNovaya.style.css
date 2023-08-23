@@ -1,0 +1,13 @@
+@import url('../../Variables.css');
+
+#rodape-novaya {
+    height: 50px;
+    display: grid;
+    place-items: center;
+    background-color: var(--color-blue-2);
+}
+
+#rodape-novaya a {
+    color: var(--color-white);
+    text-decoration: none;
+}
