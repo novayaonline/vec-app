@@ -1,9 +1,94 @@
 @import url('../../Variables.css');
 
 #contact {
-    height: 100vh;
+    height: 70vh;
     width: 100vw;
     background-color: var(--color-white);
-    display: grid;
-    place-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#contact p {
+    font-size: 3rem;
+    color: var(--color-blue-1);
+    font-weight: 500;
+}
+
+#contact h2 {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+#contact #form-contact {
+    height: 400px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#contact #form-contact .form-nameandemail {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#contact #form-contact .form-nameandemail > input {
+    width: 48%;
+    height: 35px;
+    padding: 0 10px ;
+    border: none;
+    background-color: var(--color-blue-2);
+    border-radius: 5px;
+
+    &:focus {
+        outline: none;
+    }
+}
+
+#contact #form-contact > input {
+    width: 100%;
+    height: 35px;
+    padding: 0 10px ;
+    border: none;
+    background-color: var(--color-blue-2);
+    border-radius: 5px;
+
+    &:focus {
+        outline: none;
+    }
+}
+
+#contact #form-contact > textarea {
+    width: 100%;
+    height: 150px;
+    background-color: var(--color-blue-2);
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    resize: none;
+
+    &:focus {
+        outline: none;
+    }
+}
+
+
+
+#contact #form-contact .btn-box-form {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+#contact #form-contact .btn-box-form button {
+    border: none;
+    cursor: pointer;
+
 }
