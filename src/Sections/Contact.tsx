@@ -1,6 +1,6 @@
 //Imports
 import './Styles/contact.style.css';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 
 //Configs
 const linkToFetch = 'https://formsubmit.co/felipemaifredo@gmail.com';
