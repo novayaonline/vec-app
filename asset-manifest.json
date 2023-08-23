@@ -1,19 +1,26 @@
 {
   "files": {
-    "main.css": "/vec-app/static/css/main.238ec44e.css",
-    "main.js": "/vec-app/static/js/main.57abeb5b.js",
+    "main.css": "/vec-app/static/css/main.17c0ccce.css",
+    "main.js": "/vec-app/static/js/main.0500e154.js",
     "static/js/787.47d62651.chunk.js": "/vec-app/static/js/787.47d62651.chunk.js",
     "static/media/Foguete.png": "/vec-app/static/media/Foguete.0b879c8f9df091f2b26f.png",
+    "static/media/iPad Pro 2020.png": "/vec-app/static/media/iPad Pro 2020.12fdd89489d58297685f.png",
+    "static/media/iPhone 13.png": "/vec-app/static/media/iPhone 13.62ba16318790e7d34c48.png",
+    "static/media/PixelBook Go.png": "/vec-app/static/media/PixelBook Go.57ed032403d52bf30de9.png",
+    "static/media/Frame 21.png": "/vec-app/static/media/Frame 21.1c03bd9149a5668d21c6.png",
+    "static/media/Frame 22.png": "/vec-app/static/media/Frame 22.b4c78b2bc032097d9081.png",
+    "static/media/Frame 23.png": "/vec-app/static/media/Frame 23.9883f7356dbbc9b35ab4.png",
     "static/media/whiteframe.png": "/vec-app/static/media/whiteframe.ca5fdb809ba6e60c4b66.png",
+    "static/media/Group 245.png": "/vec-app/static/media/Group 245.b57110910802fe629873.png",
     "static/media/person1.png": "/vec-app/static/media/person1.d38f3905f2fd969533a8.png",
     "static/media/logovec.webp": "/vec-app/static/media/logovec.9fc0ca1e5f613cb31166.webp",
     "index.html": "/vec-app/index.html",
-    "main.238ec44e.css.map": "/vec-app/static/css/main.238ec44e.css.map",
-    "main.57abeb5b.js.map": "/vec-app/static/js/main.57abeb5b.js.map",
+    "main.17c0ccce.css.map": "/vec-app/static/css/main.17c0ccce.css.map",
+    "main.0500e154.js.map": "/vec-app/static/js/main.0500e154.js.map",
     "787.47d62651.chunk.js.map": "/vec-app/static/js/787.47d62651.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.238ec44e.css",
-    "static/js/main.57abeb5b.js"
+    "static/css/main.17c0ccce.css",
+    "static/js/main.0500e154.js"
   ]
 }
