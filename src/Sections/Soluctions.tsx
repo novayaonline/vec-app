@@ -5,10 +5,10 @@ import handleLinkClick from '../Components/ScrollTo';
 //Assets
 import noteBookIMG from '../Assets/soluctions/PixelBook Go.png';
 import AuditoriaIMG from '../Assets/soluctions/Frame 23.png';
-import FabricIMG from '../Assets/soluctions/Frame 22.png';
+import FabricIMG from '../Assets/soluctions/fabrica.webp';
 import TableIMG from '../Assets/soluctions/iPad Pro 2020.png';
 import RevisãoIMG from '../Assets/soluctions/Frame 21.png';
-import LibrasIMG from '../Assets/soluctions/Group 245.png';
+import LibrasIMG from '../Assets/soluctions/sinais.webp';
 import CellphoneIMG from '../Assets/soluctions/iPhone 13.png';
 
 
