@@ -24,8 +24,8 @@
 
 #contact #form-contact {
     height: 400px;
-    width: 70%;
-    max-width: 800px;
+    width: 80%;
+    max-width: 1200px;
     display: flex;
     flex-direction: column;
     justify-content: center;

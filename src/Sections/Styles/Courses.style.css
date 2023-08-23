@@ -24,14 +24,15 @@
 }
 
 #courses .text-box-courses p {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     width: 70%;
     color: var(--color-white);
     text-align: center;
 }
 
 #courses .courses-container { 
-    width: 90%;
+    width: 60%;
+    max-width: 1600px;
     display: flex;
     flex-direction: column;
     align-items: center;

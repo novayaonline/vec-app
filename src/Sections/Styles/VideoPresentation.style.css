@@ -11,15 +11,15 @@
 
 #videopresentation .video-box-videopresentation {
     height: 300px;
-    width: 400px;
+    width: 500px;
 }
 
 #videopresentation .video-box-videopresentation iframe {
 }
 
 #videopresentation .text-box-videopresentation {
-    width: 500px;
-    height: 200px;
+    width: 400px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -28,5 +28,5 @@
 
 #videopresentation .text-box-videopresentation p {
     color: var(--color-blue-3);
-    font-size: 1.4rem;
+    font-size: 1.5rem;
 }
