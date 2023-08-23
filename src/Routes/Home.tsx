@@ -6,6 +6,7 @@ import VideoPresentation from '../Sections/VideoPresentation';
 import Courses from '../Sections/Courses';
 import Feedbacks from '../Sections/Feedbacks';
 import Contact from '../Sections/Contact';
+import Soluctions from '../Sections/Soluctions';
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
            <CoursesAndSolutions />
            <VideoPresentation />
            <Courses />
+           <Soluctions />
            <Feedbacks />
            <Contact />
         </div>

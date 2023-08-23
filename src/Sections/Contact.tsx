@@ -1,11 +1,13 @@
 //Imports
 import './Styles/contact.style.css';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 //Configs
 const linkToFetch = 'https://formsubmit.co/felipemaifredo@gmail.com';
 
 const Contact = () => {
+    const [btnText, SetBtnText] = useState('Enviar');
+
     const [formData, setFormData] = useState({
         name: '',
         email: '',
@@ -14,11 +16,15 @@ const Contact = () => {
     });
 
     const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
-        e.preventDefault();
-        
+        e.preventDefault();  
+
         if ( !formData.name || !formData.email || !formData.subject || !formData.text ) {
-            alert('erro')
+            SetBtnText('Preencha todos os campos acima');
+            setTimeout( () => {
+                SetBtnText('Enviar');
+            }, 3000);
           } else {
+            SetBtnText('Enviando...');
             fetch(linkToFetch, {
               method: 'post',
               headers: { 'Accept': 'aplication/json', 'Content-Type': 'application/json' },
@@ -31,7 +37,7 @@ const Contact = () => {
                 Texto: formData.text
               })
             }).then(() => {
-              alert('Mensagem enviada')
+              SetBtnText('Mensagem enviada!');
               setTimeout(() => {
                 clearForm();
               }, 5000);
@@ -46,6 +52,7 @@ const Contact = () => {
             subject: '',
             text: '',
         });
+        SetBtnText('Enviar');
     };
 
     return (
@@ -55,12 +62,12 @@ const Contact = () => {
             <form id='form-contact' onSubmit={ sendEmail }  >
                 <div className='form-nameandemail'>
                     <input type='text' placeholder='Nome' value={formData.name} onChange={(e) => setFormData({ ...formData, name: e.target.value })} />
-                    <input type='text' placeholder='Email' value={formData.email} onChange={(e) => setFormData({ ...formData, email: e.target.value })} />
+                    <input type='email' placeholder='Email' value={formData.email} onChange={(e) => setFormData({ ...formData, email: e.target.value })} />
                 </div>
                 <input type='text' placeholder='Assunto' value={formData.subject} onChange={(e) => setFormData({ ...formData, subject: e.target.value })} />
                 <textarea placeholder='Digite sua mensagem' value={formData.text} onChange={(e) => setFormData({ ...formData, text: e.target.value })} ></textarea>
                 <div className='btn-box-form'>
-                    <button type='submit' id='formBtn' className='button-style'>Enviar</button>
+                    <button type='submit' id='formBtn' className='button-style'>{btnText}</button>
                 </div>
             </form>
         </section>

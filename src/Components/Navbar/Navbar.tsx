@@ -1,6 +1,7 @@
 //Imports
 import './navbar.style.css';
 import vecLogo from '../../Assets/logovec.webp';
+import handleLinkClick from '../ScrollTo';
 
 const Navbar: React.FC = () => {
 
@@ -9,17 +10,6 @@ const Navbar: React.FC = () => {
         link: string;
     }
     
-    const handleLinkClick = (e: any) => {
-        e.preventDefault();
-        let element = e.target.getAttribute('href');
-        let toSection = document.querySelector(element).offsetTop;
-    
-        window.scroll({
-            top: toSection,
-            behavior: "smooth",
-        });
-    };
-
     const RenderLink = ({ text, link }: LinkProps): JSX.Element => {
         return (
             <li className='itens-navbar' key={text}>

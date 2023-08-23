@@ -1,5 +1,6 @@
 //Imports
 import './Styles/VideoPresentation.style.css';
+import handleLinkClick from '../Components/ScrollTo';
 
 const VideoPresentation = () => {
     return (
@@ -9,7 +10,7 @@ const VideoPresentation = () => {
             </div>
             <div className='text-box-videopresentation'>
                 <p>Potencialize e desenvolva o desempenho do seu time, compartilhando conhecimento com metodologias como heutagogia e andragogia.</p>
-                <a href='#contact' className='button-style'>Entre em Contato</a>
+                <a href='#contact' onClick={handleLinkClick} className='button-style'>Entre em Contato</a>
             </div>
         </section>
     )
