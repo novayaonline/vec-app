@@ -1,6 +1,5 @@
 //Imports
 import './Styles/feedbacks.style.css';
-import person1 from '../Assets/persons/person1.png';
 import React, { useRef, useState, useEffect } from 'react';
 import { AiOutlineArrowRight } from "react-icons/ai";
 import { AiOutlineArrowLeft } from "react-icons/ai";
