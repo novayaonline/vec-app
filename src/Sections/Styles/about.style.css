@@ -17,14 +17,14 @@
     max-height: 800px;
     min-height: 400px;
     width: 100%;
-    max-width: 1400px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 #about .box-card-about .card-about {
-    width: 70%;
+    width: 100%;
+    max-width: 1250px;
     height: 90%;
     display: flex;
     background-color: var(--color-white);

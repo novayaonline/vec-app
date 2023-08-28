@@ -6,6 +6,15 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 import { AiOutlineArrowLeft } from "react-icons/ai";
 import { AiFillStar } from "react-icons/ai";
 
+//Assets
+import imgLucas from '../Assets/persons/lucas.png';
+import imgluiz from '../Assets/persons/luiz.png';
+import imgCarlos from '../Assets/persons/carlos.png';
+import imgSara from '../Assets/persons/Sara.png';
+import imgSoraya from '../Assets/persons/soraya.png';
+import imgSuzana from '../Assets/persons/suzana.png';
+
+
 const Feedbacks = () => {
     const containerRef = useRef<HTMLDivElement | null>(null);
     const [containerWidth, setContainerWidth] = useState<number>(0);
@@ -76,53 +85,46 @@ const Feedbacks = () => {
             <div className='feedbacks-container'>
                 <div ref={containerRef} className="feedbacks-box-feedbacks"> 
                     {createCardCourse({
-                        img: person1,
-                        text: "muito bom!!!!!!!!!!!!!!!!! Conteúdo muito bom!!!!!!!!!!!!!!!!! ",
+                        img: imgCarlos,
+                        text: "Conteúdo enriquecedor! Sensacional!!!!",
                         name: "Carlos da Silva",
                         note: 5,
                         location: "São Paulo - SP",
                     })}
                     {createCardCourse({
-                        img: person1,
-                        text: "Conteúdo muito bom!!!!!!!!!!!!!!!!! Conteúdo muito bom!!!!!!!!!!!!!!!!! Conteúdo muito bom!!!!!!!!!!!!!!!!! ",
-                        name: "Carlos da Silva",
+                        img: imgSara,
+                        text: "Conteúdo enriquecedor! Sensacional!!!!",
+                        name: "Sara Mendes",
                         note: 5,
-                        location: "São Paulo - SP",
+                        location: "Santos - SP",
                     })}
                     {createCardCourse({
-                        img: person1,
-                        text: "Conteúdo muito bom!!!!!!!!!!!!!!!!! Conteúdo muito bom!!!!!!!!!!!!!!!!! Conteúdo muito bom!!!!!!!!!!!!!!!!! ",
-                        name: "Carlos da Silva",
+                        img: imgluiz,
+                        text: "Conteúdo enriquecedor! Sensacional!!!!",
+                        name: "Luiz Henrrique",
                         note: 5,
-                        location: "São Paulo - SP",
+                        location: "Salvador - BA",
                     })}
                     {createCardCourse({
-                        img: person1,
-                        text: "Conteúdo muito bom!!!!!!!!!!!!!!!!! Conteúdo muito bom!!!!!!!!!!!!!!!!! Conteúdo muito bom!!!!!!!!!!!!!!!!! ",
-                        name: "Carlos da Silva",
+                        img: imgSoraya,
+                        text: "Conteúdo enriquecedor! Sensacional!!!!",
+                        name: "Soraya Moura",
                         note: 5,
-                        location: "São Paulo - SP",
+                        location: "Cuiaba - MT",
                     })}
                     {createCardCourse({
-                        img: person1,
-                        text: "Conteúdo muito bom!!!!!!!!!!!!!!!!! Conteúdo muito bom!!!!!!!!!!!!!!!!! Conteúdo muito bom!!!!!!!!!!!!!!!!! ",
-                        name: "Carlos da Silva",
+                        img: imgLucas,
+                        text: "Conteúdo enriquecedor! Sensacional!!!!",
+                        name: "Lucas Lopes",
                         note: 5,
-                        location: "São Paulo - SP",
+                        location: "Belo Horizonte - BH",
                     })}
                     {createCardCourse({
-                        img: person1,
-                        text: "Conteúdo muito bom!!!!!!!!!!!!!!!!! Conteúdo muito bom!!!!!!!!!!!!!!!!! Conteúdo muito bom!!!!!!!!!!!!!!!!! ",
-                        name: "Carlos da Silva",
+                        img: imgSuzana,
+                        text: "Conteúdo enriquecedor! Sensacional!!!!",
+                        name: "Suzana Santos",
                         note: 5,
-                        location: "São Paulo - SP",
-                    })}
-                    {createCardCourse({
-                        img: person1,
-                        text: "Conteúdo muito bom!!!!!!!!!!!!!!!!! Conteúdo muito bom!!!!!!!!!!!!!!!!! Conteúdo muito bom!!!!!!!!!!!!!!!!! ",
-                        name: "Carlos da Silva",
-                        note: 5,
-                        location: "São Paulo - SP",
+                        location: "Foz do Iguaçu - PR",
                     })}
                     
                 </div> 

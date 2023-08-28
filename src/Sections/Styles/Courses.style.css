@@ -31,18 +31,19 @@
 }
 
 #courses .courses-container { 
-    width: 60%;
-    max-width: 1600px;
+    width: 100%;
+    max-width: 1250px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
 }
 
 #courses .courses-container .navigate-btns-box {
     display: flex;
     justify-content: space-between;
-    width: 80%;
+    width: 100%;
 }
 
 #courses .courses-container .navigate-btns-box button {
@@ -61,7 +62,7 @@
 
 
 #courses .courses-box-courses {
-    width: 80%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: flex-start;
