@@ -1,27 +1,32 @@
 {
   "files": {
-    "main.css": "/vec-app/static/css/main.eb22235e.css",
-    "main.js": "/vec-app/static/js/main.43d25ccc.js",
+    "main.css": "/vec-app/static/css/main.8a9f1c25.css",
+    "main.js": "/vec-app/static/js/main.93a266fa.js",
     "static/js/787.47d62651.chunk.js": "/vec-app/static/js/787.47d62651.chunk.js",
     "static/media/Foguete.png": "/vec-app/static/media/Foguete.0b879c8f9df091f2b26f.png",
     "static/media/Frame 21.png": "/vec-app/static/media/Frame 21.1c03bd9149a5668d21c6.png",
     "static/media/Frame 23.png": "/vec-app/static/media/Frame 23.9883f7356dbbc9b35ab4.png",
     "static/media/whiteframe.png": "/vec-app/static/media/whiteframe.ca5fdb809ba6e60c4b66.png",
-    "static/media/person1.png": "/vec-app/static/media/person1.d38f3905f2fd969533a8.png",
+    "static/media/lucas.png": "/vec-app/static/media/lucas.19a03fb434510e28cf77.png",
+    "static/media/suzana.png": "/vec-app/static/media/suzana.85d9fdd15ad2b70b31a6.png",
     "static/media/fabrica.webp": "/vec-app/static/media/fabrica.164c5ec89fc4574821a8.webp",
     "static/media/iPhone 13.png": "/vec-app/static/media/iPhone 13.e7af20af0e3762628334.png",
+    "static/media/soraya.png": "/vec-app/static/media/soraya.b32d21d74e33ae408258.png",
+    "static/media/Sara.png": "/vec-app/static/media/Sara.a777212f53fe6ff7cb92.png",
     "static/media/logovec.webp": "/vec-app/static/media/logovec.9fc0ca1e5f613cb31166.webp",
     "static/media/V&C---Branco 1.png": "/vec-app/static/media/V&C---Branco 1.946661fd7013ff61b4b0.png",
+    "static/media/carlos.png": "/vec-app/static/media/carlos.cdfc09273493219dc4f9.png",
+    "static/media/luiz.png": "/vec-app/static/media/luiz.6bbb1df30f29f9254e01.png",
     "static/media/iPad Pro 2020.png": "/vec-app/static/media/iPad Pro 2020.a9e3f91540450c9bf1ee.png",
     "static/media/PixelBook Go.png": "/vec-app/static/media/PixelBook Go.8a75f92aa6563488f03d.png",
     "static/media/sinais.webp": "/vec-app/static/media/sinais.e1f4ffa3dfe36715277e.webp",
     "index.html": "/vec-app/index.html",
-    "main.eb22235e.css.map": "/vec-app/static/css/main.eb22235e.css.map",
-    "main.43d25ccc.js.map": "/vec-app/static/js/main.43d25ccc.js.map",
+    "main.8a9f1c25.css.map": "/vec-app/static/css/main.8a9f1c25.css.map",
+    "main.93a266fa.js.map": "/vec-app/static/js/main.93a266fa.js.map",
     "787.47d62651.chunk.js.map": "/vec-app/static/js/787.47d62651.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eb22235e.css",
-    "static/js/main.43d25ccc.js"
+    "static/css/main.8a9f1c25.css",
+    "static/js/main.93a266fa.js"
   ]
 }
