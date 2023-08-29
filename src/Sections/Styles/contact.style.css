@@ -2,7 +2,9 @@
 
 #contact {
     height: 65vh;
+    min-height: 500px;
     width: 100vw;
+    padding-top: 25px;
     background-color: var(--color-white);
     display: flex;
     flex-direction: column;

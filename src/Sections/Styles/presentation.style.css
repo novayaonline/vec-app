@@ -4,10 +4,17 @@
     height: 70vh;
     min-height: 600px;
     width: 100vw;
+    display: grid;
+    place-items: center;
+}
+
+#presentation > div {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 50px;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1250px;
+    min-width: 900px;
 }
 
 #presentation .text-box-presentation {

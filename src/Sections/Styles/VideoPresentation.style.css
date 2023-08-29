@@ -2,23 +2,34 @@
 
 #videopresentation {
     height: 40vh;
+    min-height: 400px;
     background-color: var(--color-white);
+    display: grid;
+    place-items: center;
+}
+
+#videopresentation > div {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 25px;
+    gap: 35px;
+    width: 50%;
+    min-width: 900px;
+    max-width: 1550px;
 }
 
 #videopresentation .video-box-videopresentation {
     height: 300px;
-    width: 500px;
+    width: 50%;
+    max-width: 600px;
 }
 
 #videopresentation .video-box-videopresentation iframe {
 }
 
 #videopresentation .text-box-videopresentation {
-    width: 25%;
+    width: 50%;
+    max-width: 800px;
     height: 300px;
     display: flex;
     flex-direction: column;

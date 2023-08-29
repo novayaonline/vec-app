@@ -2,8 +2,19 @@
 
 #navbar {
     height: 60px;
+    width: 100%;
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar > div {
+    height: 100%;
+    width: 80%;
+    max-width: 1300px;
+    min-width: 900px;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -23,10 +34,10 @@
 }
 
 
-#navbar .img-box-navbar {
+#navbar > div .img-box-navbar {
     height: 80%;
 }
 
-#navbar .img-box-navbar img {
+#navbar > div .img-box-navbar img {
     height: 100%;
 }

@@ -16,7 +16,7 @@
     height: 70%;
     max-height: 800px;
     min-height: 400px;
-    width: 100%;
+    width: 80%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -87,4 +87,5 @@
     #about .box-card-about .card-about .info-container .info-text-box .info {
         font-size: 1.5rem;
         color: var(--color-blue-3);
+        text-align: justify;
     }

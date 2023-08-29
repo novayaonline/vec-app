@@ -32,17 +32,19 @@ const Navbar: React.FC = () => {
 
     return(
         <nav id="navbar">
-            <div className='img-box-navbar'>
-                <img src={vecLogo} alt="Logomarca V&C" />
+            <div>
+                <div className='img-box-navbar'>
+                    <img src={vecLogo} alt="Logomarca V&C" />
+                </div>
+                <ul className='menu-itens-navbar'> 
+                    {links.map((linkProps) => (
+                        <RenderLink
+                            text={linkProps.text}
+                            link={linkProps.link}
+                        />
+                    ))}
+                </ul>
             </div>
-            <ul className='menu-itens-navbar'> 
-                {links.map((linkProps) => (
-                    <RenderLink
-                        text={linkProps.text}
-                        link={linkProps.link}
-                    />
-                ))}
-            </ul>
         </nav>
     )
 }
