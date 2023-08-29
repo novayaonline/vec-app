@@ -77,14 +77,14 @@
         width: 100vw;
         display: grid;
         place-items: center;
-        padding: 20px 0px;
+        padding: 20px 10px;
     }
     
     #presentation > div {
         flex-direction: column;
         width: 90%;
         max-width: 900px;
-        min-width: 500px;
+        min-width: 300px;
         gap: 30px;
     }
 
@@ -93,7 +93,7 @@
     }
     
     #presentation .text-box-presentation h1 {
-        font-size: 3.5rem;
+        font-size: 2.5rem;
     }
     
     #presentation .text-box-presentation p {

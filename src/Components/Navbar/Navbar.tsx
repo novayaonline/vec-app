@@ -30,8 +30,8 @@ const Navbar: React.FC = () => {
     ];
 
     const toggleMenu = () => {
-        let menuItens = document.querySelector('ul.menu-itens-navbar');
-        menuItens?.classList.toggle('menu-itens-navbar-active');
+        let menu = document.querySelector('nav#navbar');
+        menu?.classList.toggle('navbar-active');
     }
     
     return(
@@ -41,7 +41,9 @@ const Navbar: React.FC = () => {
                     <img src={vecLogo} alt="Logomarca V&C" />
                 </div>
                 <button id='btn-menu' onClick={toggleMenu}>
-                        BTN
+                    <span className="line line1"></span>
+				    <span className="line line2"></span>
+				    <span className="line line3"></span>
                 </button>
                 <ul className='menu-itens-navbar'> 
                     {links.map((linkProps) => (
