@@ -20,3 +20,15 @@
     font-size: 1.1rem;
     color: var(--color-white);
 }
+
+@media (max-width: 900px) {
+    #CoursesAndSolutions h2 {
+        text-align: center;
+        font-size: 2rem;
+    }
+    
+    #CoursesAndSolutions p {
+        text-align: center;
+        font-size: .9rem;
+    }
+}

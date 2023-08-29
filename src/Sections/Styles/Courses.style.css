@@ -169,3 +169,11 @@
     padding: 3px 7px;
     border-radius: 10px;
 }
+
+@media (max-width: 900px) {
+
+    #courses {
+        overflow-x: hidden;
+    }
+
+}

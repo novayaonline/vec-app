@@ -170,3 +170,12 @@
 #feedbacks .box-feedback .feedback-text p {
     font-size: .9rem;
 }
+
+
+@media (max-width: 900px) {
+
+    #feedbacks {
+        overflow-x: hidden;
+    }
+
+}

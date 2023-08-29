@@ -29,13 +29,20 @@ const Navbar: React.FC = () => {
         // ... outros links
     ];
 
-
+    const toggleMenu = () => {
+        let menuItens = document.querySelector('ul.menu-itens-navbar');
+        menuItens?.classList.toggle('menu-itens-navbar-active');
+    }
+    
     return(
         <nav id="navbar">
             <div>
                 <div className='img-box-navbar'>
                     <img src={vecLogo} alt="Logomarca V&C" />
                 </div>
+                <button id='btn-menu' onClick={toggleMenu}>
+                        BTN
+                </button>
                 <ul className='menu-itens-navbar'> 
                     {links.map((linkProps) => (
                         <RenderLink

@@ -41,3 +41,37 @@
     color: var(--color-blue-3);
     font-size: 1.5rem;
 }
+
+@media (max-width: 900px) {
+
+    #videopresentation {
+        height: auto;
+        min-height: 400px;
+        background-color: var(--color-white);
+        display: grid;
+        place-items: center;
+        padding: 20px 0;
+    }
+    
+    #videopresentation > div {
+        flex-direction: column;
+        gap: 0px;
+        width: 100%;
+        min-width: 500px;
+        gap: 25px;
+    }
+
+    #videopresentation .video-box-videopresentation {
+        height: 250px;
+        width: 90%;
+        max-width: 600px;
+    }
+    
+    #videopresentation .text-box-videopresentation {
+        width: 90%;
+        height: 220px;
+        justify-content: flex-start;
+        gap: 25px;
+    }
+
+}

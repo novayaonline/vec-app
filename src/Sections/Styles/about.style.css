@@ -89,3 +89,28 @@
         color: var(--color-blue-3);
         text-align: justify;
     }
+
+
+@media (max-width: 900px) {
+
+    #about {
+        height: 50vh;
+        min-height: 450px;
+    }
+
+    #about .box-card-about .card-about .button-container{
+        width: 35%;
+    }
+
+    #about .box-card-about .card-about .button-container button {
+        font-size: 1.2rem;   
+    }
+
+    #about .box-card-about {
+        width: 90%;
+    }
+
+    #about .box-card-about .card-about .info-container .info-text-box .info {
+        font-size: 1rem;
+    }
+}

@@ -68,3 +68,40 @@
         transform: translateY(0px);
     }
 }
+
+@media (max-width: 900px) {
+
+    #presentation {
+        height: fit-content;
+        min-height: 600px;
+        width: 100vw;
+        display: grid;
+        place-items: center;
+        padding: 20px 0px;
+    }
+    
+    #presentation > div {
+        flex-direction: column;
+        width: 90%;
+        max-width: 900px;
+        min-width: 500px;
+        gap: 30px;
+    }
+
+    #presentation .text-box-presentation {
+        gap: 30px;
+    }
+    
+    #presentation .text-box-presentation h1 {
+        font-size: 3.5rem;
+    }
+    
+    #presentation .text-box-presentation p {
+        font-size: 1.1rem;
+    }
+    
+    #presentation .img-box-presentation {
+        height:350px;
+        width: 300px;        
+    }
+}
