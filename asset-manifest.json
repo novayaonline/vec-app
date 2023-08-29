@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/vec-app/static/css/main.3c1855d2.css",
-    "main.js": "/vec-app/static/js/main.eb247881.js",
+    "main.css": "/vec-app/static/css/main.7a52c1f2.css",
+    "main.js": "/vec-app/static/js/main.7791c2b2.js",
     "static/js/787.47d62651.chunk.js": "/vec-app/static/js/787.47d62651.chunk.js",
     "static/media/Foguete.png": "/vec-app/static/media/Foguete.0b879c8f9df091f2b26f.png",
     "static/media/Frame 21.png": "/vec-app/static/media/Frame 21.1c03bd9149a5668d21c6.png",
@@ -21,12 +21,12 @@
     "static/media/PixelBook Go.png": "/vec-app/static/media/PixelBook Go.8a75f92aa6563488f03d.png",
     "static/media/sinais.webp": "/vec-app/static/media/sinais.e1f4ffa3dfe36715277e.webp",
     "index.html": "/vec-app/index.html",
-    "main.3c1855d2.css.map": "/vec-app/static/css/main.3c1855d2.css.map",
-    "main.eb247881.js.map": "/vec-app/static/js/main.eb247881.js.map",
+    "main.7a52c1f2.css.map": "/vec-app/static/css/main.7a52c1f2.css.map",
+    "main.7791c2b2.js.map": "/vec-app/static/js/main.7791c2b2.js.map",
     "787.47d62651.chunk.js.map": "/vec-app/static/js/787.47d62651.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3c1855d2.css",
-    "static/js/main.eb247881.js"
+    "static/css/main.7a52c1f2.css",
+    "static/js/main.7791c2b2.js"
   ]
 }
