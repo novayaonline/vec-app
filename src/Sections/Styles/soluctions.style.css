@@ -64,3 +64,30 @@
 #soluctions .container-soluction .box-soluction .text-box-soluction p {
     font-size: 1.05rem;
 }
+
+@media (max-width: 900px) {
+    #soluctions .container-soluction {
+        height: auto;
+        width: 100%;
+        padding: 20px 0;
+    }
+    #soluctions .container-soluction .box-soluction {
+        width: 95%;
+        height: auto;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #soluctions .container-soluction-blue .box-soluction {
+        flex-direction: column-reverse;
+    }
+
+    #soluctions .container-soluction .box-soluction .img-box-soluction {
+        width: 95%;
+    }
+
+    #soluctions .container-soluction .box-soluction .text-box-soluction {
+        width: 95%;
+        gap: 20px;
+    }
+}

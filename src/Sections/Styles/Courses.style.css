@@ -1,3 +1,5 @@
+@import url('../../Variables.css');
+
 #courses {
     height: 70vh;
     min-height: 700px;
@@ -173,7 +175,27 @@
 @media (max-width: 900px) {
 
     #courses {
-        overflow-x: hidden;
+        height: auto;
+        min-height: 700px;
+        gap: 50px;
+    }
+
+    #courses .text-box-courses h2 {
+        font-size: 1.8rem;
+    }
+    
+    #courses .text-box-courses p {
+        font-size: 1rem;
+        width: 95%;
+    }
+
+    #courses .courses-container .navigate-btns-box {
+       display: none;
+    }
+
+    #courses .courses-container { 
+        width: 95%;
+        min-width: 380px;
     }
 
 }

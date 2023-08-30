@@ -98,12 +98,19 @@
         min-height: 450px;
     }
 
+    #about .box-card-about {
+        height: fit-content;
+        max-height: 800px;
+        min-height: 400px;
+        
+    }
+
     #about .box-card-about .card-about .button-container{
         width: 35%;
     }
 
     #about .box-card-about .card-about .button-container button {
-        font-size: 1.2rem;   
+        font-size: 1rem;   
     }
 
     #about .box-card-about {

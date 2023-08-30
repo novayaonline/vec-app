@@ -56,7 +56,6 @@ const Soluctions = () => {
 
     return(
         <section id="soluctions">
-
             {createCardSoluction({
                 isFliped: false,
                 img: noteBookIMG,

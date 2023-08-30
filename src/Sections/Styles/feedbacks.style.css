@@ -175,7 +175,34 @@
 @media (max-width: 900px) {
 
     #feedbacks {
-        overflow-x: hidden;
+        height: 40vh;
+        min-height: 350px;
+        background-color: var(--color-blue-2);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
     }
 
+    #feedbacks .text-box-feedbacks h2 {
+    font-size: 2rem;
+}
+
+    #feedbacks .text-box-feedbacks p {
+        font-size: 1.1rem;
+    }
+
+    #feedbacks .feedbacks-container { 
+        width: 95%;
+        min-width: 380px;
+    }
+
+    #feedbacks .feedbacks-container .navigate-btns-box {
+        display: none;
+    }
+
+    #feedbacks .feedbacks-box-feedbacks {
+        width: 95%;
+    }
 }

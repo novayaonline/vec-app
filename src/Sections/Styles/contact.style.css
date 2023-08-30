@@ -101,3 +101,23 @@
     cursor: pointer;
 
 }
+
+@media (max-width: 900px) {
+    #contact {
+        height: 60vh;
+        min-height: 450px;
+    }
+
+    #contact p {
+        font-size: 1.8rem;
+        color: var(--color-blue-1);
+        font-weight: 500;
+        width: 80%;
+    }
+    
+    #contact h2 {
+        font-size: .8rem;
+        font-weight: 400;
+        width: 80%;
+    }
+}

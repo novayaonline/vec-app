@@ -24,11 +24,13 @@
 @media (max-width: 900px) {
     #CoursesAndSolutions h2 {
         text-align: center;
-        font-size: 2rem;
+        font-size: 1.7rem;
+        padding: 5px;
     }
     
     #CoursesAndSolutions p {
         text-align: center;
         font-size: .9rem;
+        padding: 5px;
     }
 }
