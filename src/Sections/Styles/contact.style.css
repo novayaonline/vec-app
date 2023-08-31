@@ -104,8 +104,22 @@
 
 @media (max-width: 900px) {
     #contact {
-        height: 60vh;
-        min-height: 450px;
+        height: auto;
+        padding: 20px 0;
+    }
+
+    #contact #form-contact {
+        height: auto;
+        gap: 10px;
+    }
+
+    #contact #form-contact .form-nameandemail {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #contact #form-contact .form-nameandemail > input {
+        width: 100%;
     }
 
     #contact p {

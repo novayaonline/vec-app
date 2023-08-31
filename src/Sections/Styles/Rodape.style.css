@@ -73,7 +73,22 @@
 @media (max-width: 900px) {
 
     #rodape {
-        overflow-x: hidden;
+        height: auto;
+        flex-direction: column;
+        padding: 30px 0;
+        gap: 10px;
+    }
+
+    #rodape .vec-box {
+        margin-right: 0%;
+    }
+
+    #rodape .vec-rodape {
+        width: 80%;
+        height: auto;
+    }
+    #rodape .vec-rodape h4 {
+        margin-bottom: 5px;
     }
 
 }

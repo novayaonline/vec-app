@@ -10,4 +10,5 @@
 #rodape-novaya a {
     color: var(--color-white);
     text-decoration: none;
+    font-size: .8rem;
 }

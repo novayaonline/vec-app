@@ -198,4 +198,10 @@
         min-width: 380px;
     }
 
+    #courses .courses-box-courses .box-course { 
+    
+        &:hover {
+            transform: scale(1);
+        }
+    }
 }
