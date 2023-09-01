@@ -1,32 +1,36 @@
 {
   "files": {
     "main.css": "/vec-app/static/css/main.24c608a2.css",
-    "main.js": "/vec-app/static/js/main.7791c2b2.js",
+    "main.js": "/vec-app/static/js/main.411c1ed2.js",
     "static/js/787.47d62651.chunk.js": "/vec-app/static/js/787.47d62651.chunk.js",
-    "static/media/Foguete.png": "/vec-app/static/media/Foguete.0b879c8f9df091f2b26f.png",
-    "static/media/Frame 21.png": "/vec-app/static/media/Frame 21.1c03bd9149a5668d21c6.png",
-    "static/media/Frame 23.png": "/vec-app/static/media/Frame 23.9883f7356dbbc9b35ab4.png",
-    "static/media/whiteframe.png": "/vec-app/static/media/whiteframe.ca5fdb809ba6e60c4b66.png",
+    "static/media/Foguete.webp": "/vec-app/static/media/Foguete.ffa7dbe6da787b2d56a8.webp",
     "static/media/lucas.png": "/vec-app/static/media/lucas.19a03fb434510e28cf77.png",
     "static/media/suzana.png": "/vec-app/static/media/suzana.85d9fdd15ad2b70b31a6.png",
     "static/media/fabrica.webp": "/vec-app/static/media/fabrica.164c5ec89fc4574821a8.webp",
-    "static/media/iPhone 13.png": "/vec-app/static/media/iPhone 13.e7af20af0e3762628334.png",
+    "static/media/leilucas.webp": "/vec-app/static/media/leilucas.743b96e02f339664e56a.webp",
     "static/media/soraya.png": "/vec-app/static/media/soraya.b32d21d74e33ae408258.png",
     "static/media/Sara.png": "/vec-app/static/media/Sara.a777212f53fe6ff7cb92.png",
+    "static/media/comunicaonv.webp": "/vec-app/static/media/comunicaonv.4ad5899521ee98abab74.webp",
+    "static/media/ESG.webp": "/vec-app/static/media/ESG.2976512a0e40096f481e.webp",
+    "static/media/Frame-23.webp": "/vec-app/static/media/Frame-23.c66d944073ac08e95573.webp",
     "static/media/logovec.webp": "/vec-app/static/media/logovec.9fc0ca1e5f613cb31166.webp",
     "static/media/V&C---Branco 1.png": "/vec-app/static/media/V&C---Branco 1.946661fd7013ff61b4b0.png",
     "static/media/carlos.png": "/vec-app/static/media/carlos.cdfc09273493219dc4f9.png",
     "static/media/luiz.png": "/vec-app/static/media/luiz.6bbb1df30f29f9254e01.png",
-    "static/media/iPad Pro 2020.png": "/vec-app/static/media/iPad Pro 2020.a9e3f91540450c9bf1ee.png",
-    "static/media/PixelBook Go.png": "/vec-app/static/media/PixelBook Go.8a75f92aa6563488f03d.png",
+    "static/media/assedioat.webp": "/vec-app/static/media/assedioat.9a2680b21167b4ce7d25.webp",
+    "static/media/libras.webp": "/vec-app/static/media/libras.e4d9faf548fcd932231b.webp",
+    "static/media/ipad-pro-2020.webp": "/vec-app/static/media/ipad-pro-2020.db63eba1a78e7ee95f18.webp",
+    "static/media/iphone-13.webp": "/vec-app/static/media/iphone-13.937c7ed152c803cf8d4c.webp",
     "static/media/sinais.webp": "/vec-app/static/media/sinais.e1f4ffa3dfe36715277e.webp",
+    "static/media/frame-21.webp": "/vec-app/static/media/frame-21.1df51fd4eed58ded06a1.webp",
+    "static/media/pixelbook-go.webp": "/vec-app/static/media/pixelbook-go.0ef924da8e1993a5a105.webp",
     "index.html": "/vec-app/index.html",
     "main.24c608a2.css.map": "/vec-app/static/css/main.24c608a2.css.map",
-    "main.7791c2b2.js.map": "/vec-app/static/js/main.7791c2b2.js.map",
+    "main.411c1ed2.js.map": "/vec-app/static/js/main.411c1ed2.js.map",
     "787.47d62651.chunk.js.map": "/vec-app/static/js/787.47d62651.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.24c608a2.css",
-    "static/js/main.7791c2b2.js"
+    "static/js/main.411c1ed2.js"
   ]
 }
