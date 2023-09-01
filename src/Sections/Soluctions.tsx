@@ -3,14 +3,13 @@ import './Styles/soluctions.style.css';
 import handleLinkClick from '../Components/ScrollTo';
 
 //Assets
-import noteBookIMG from '../Assets/soluctions/PixelBook Go.png';
-import AuditoriaIMG from '../Assets/soluctions/Frame 23.png';
+import noteBookIMG from '../Assets/soluctions/pixelbook-go.webp';
+import AuditoriaIMG from '../Assets/soluctions/Frame-23.webp';
 import FabricIMG from '../Assets/soluctions/fabrica.webp';
-import TableIMG from '../Assets/soluctions/iPad Pro 2020.png';
-import RevisãoIMG from '../Assets/soluctions/Frame 21.png';
+import TableIMG from '../Assets/soluctions/ipad-pro-2020.webp';
+import RevisãoIMG from '../Assets/soluctions/frame-21.webp';
 import LibrasIMG from '../Assets/soluctions/sinais.webp';
-import CellphoneIMG from '../Assets/soluctions/iPhone 13.png';
-
+import CellphoneIMG from '../Assets/soluctions/iphone-13.webp';
 
 const Soluctions = () => {
     interface CardSoluctionProps {

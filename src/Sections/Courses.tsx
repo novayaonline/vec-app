@@ -1,9 +1,16 @@
 //Imports
 import './Styles/Courses.style.css';
-import whiteFrame from '../Assets/whiteframe.png';
 import React, { useRef, useState, useEffect } from 'react';
 import { AiOutlineArrowRight } from "react-icons/ai";
 import { AiOutlineArrowLeft } from "react-icons/ai";
+
+//Assets
+import courseLibras from '../Assets/courses/libras.webp'
+import leiLucas from '../Assets/courses/leilucas.webp'
+import ESG from '../Assets/courses/ESG.webp'
+import assedioat from '../Assets/courses/assedioat.webp'
+import comunicacaobv from '../Assets/courses/comunicaonv.webp'
+import libras from '../Assets/courses/libras.webp'
 
 const Courses = () => {
     const containerRef = useRef<HTMLDivElement | null>(null);
@@ -71,69 +78,46 @@ const Courses = () => {
             <div className='courses-container'>
                 <div ref={containerRef} className="courses-box-courses"> 
                     {createCardCourse({
-                        img: whiteFrame,
+                        img: ESG,
                         cOnline: "Curso 100% Online",
                         colorOnline: "tag-course-blue",
-                        titleCourse: "Psicopedagogia",
-                        tagCourse: "Estudo de caso",
+                        titleCourse: "ESG",
+                        tagCourse: "Transformações de Negócios",
                         link: "https://www.google.com.br/"
                     })}
                     {createCardCourse({
-                        img: whiteFrame,
+                        img: leiLucas,
                         cOnline: "Curso 100% Online",
                         colorOnline: "tag-course-white",
-                        titleCourse: "Psicopedagogia",
-                        tagCourse: "Análise de caso",
+                        titleCourse: "Lei Lucas",
+                        tagCourse: "Primeiros Socorros",
                         link: "https://www.google.com.br/"
                     })}
                     {createCardCourse({
-                        img: whiteFrame,
+                        img: assedioat,
                         cOnline: "Curso 100% Online",
                         colorOnline: "tag-course-blue",
-                        titleCourse: "Psicopedagogia",
-                        tagCourse: "Comportamental",
+                        titleCourse: "Assédio no Ambiente de trabalho",
+                        tagCourse: "Práticas Éticas",
                         link: "https://www.google.com.br/"
                     })}
                     {createCardCourse({
-                        img: whiteFrame,
+                        img: libras,
                         cOnline: "Curso 100% Online",
                         colorOnline: "tag-course-blue",
-                        titleCourse: "Psicopedagogia",
-                        tagCourse: "Análise de caso",
+                        titleCourse: "Libras Nível Básico",
+                        tagCourse: "Educação Inclusiva",
                         link: "https://www.google.com.br/"
                     })}
                     {createCardCourse({
-                        img: whiteFrame,
+                        img: comunicacaobv,
                         cOnline: "Curso 100% Online",
-                        colorOnline: "tag-course-blue",
-                        titleCourse: "Psicopedagogia",
-                        tagCourse: "Análise de caso",
+                        colorOnline: "tag-course-white",
+                        titleCourse: "Comunicação não violenta",
+                        tagCourse: "Linguagem assertiva",
                         link: "https://www.google.com.br/"
                     })}
-                    {createCardCourse({
-                        img: whiteFrame,
-                        cOnline: "Curso 100% Online",
-                        colorOnline: "tag-course-blue",
-                        titleCourse: "Psicopedagogia",
-                        tagCourse: "Análise de caso",
-                        link: "https://www.google.com.br/"
-                    })}
-                    {createCardCourse({
-                        img: whiteFrame,
-                        cOnline: "Curso 100% Online",
-                        colorOnline: "tag-course-blue",
-                        titleCourse: "Psicopedagogia",
-                        tagCourse: "Análise de caso",
-                        link: "https://www.google.com.br/"
-                    })}
-                    {createCardCourse({
-                        img: whiteFrame,
-                        cOnline: "Curso 100% Online",
-                        colorOnline: "tag-course-blue",
-                        titleCourse: "Psicopedagogia",
-                        tagCourse: "Análise de caso",
-                        link: "https://www.google.com.br/"
-                    })}  
+                    
                 </div> 
                 <div className='navigate-btns-box'>
                     <button onClick={handlePrevClick}> <AiOutlineArrowLeft /> </button>

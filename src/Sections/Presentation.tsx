@@ -3,7 +3,8 @@ import './Styles/presentation.style.css';
 import handleLinkClick from '../Components/ScrollTo';
 
 //Assets
-import rocktMan from '../Assets/Foguete.png';
+import rocktMan from '../Assets/Foguete.webp';
+
 const Presentation = () => {
     return (
         <div id="presentation">
