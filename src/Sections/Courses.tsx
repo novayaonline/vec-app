@@ -82,7 +82,7 @@ const Courses = () => {
                         cOnline: "Curso 100% Online",
                         colorOnline: "tag-course-blue",
                         titleCourse: "ESG",
-                        tagCourse: "Transformações de Negócios",
+                        tagCourse: "Inovação e Crescimento",
                         link: "https://www.google.com.br/"
                     })}
                     {createCardCourse({
