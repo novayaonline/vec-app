@@ -63,13 +63,4 @@
     #social-box {
         top: 50%;
     }
-
-    #social-box > a.blue {
-        display: none;
-    }
-
-    #social-box > a.rose {
-        display: none;
-    }
-
 }
