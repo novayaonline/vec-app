@@ -22,7 +22,7 @@
     text-decoration: none;
     color: #fff;
     font-size: 1.3rem;
-    border-radius: 0 30px 30px 0;
+    border-radius: 0 10px 10px 0;
     transform: translateX(-68%);
     transition: all 1s;
     font-weight: 500;
@@ -63,4 +63,13 @@
     #social-box {
         top: 50%;
     }
+
+    #social-box > a.blue {
+        display: none;
+    }
+
+    #social-box > a.rose {
+        display: none;
+    }
+
 }
