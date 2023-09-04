@@ -66,7 +66,7 @@ const Soluctions = () => {
                 isFliped: true,
                 img: AuditoriaIMG,
                 title: "Ferramentas de Auditória",
-                text: "Oferecemos uma aprendizagem dinâmica e centrada no usuário, repleta de inovação e experiências envolventes. Além de texto e vídeo, nossa plataforma disponibiliza infográficos, quizzes, 360° graus, áudios, podcasts e muito mais em um único lugar, proporcionando aos estudantes acesso completo ao conhecimento."
+                text: "Oferecemos uma aprendizagem dinâmica e centrada no usuário, repleta de inovação e experiências envolventes. Além de texto e vídeo, nossa plataforma disponibiliza infográficos, quizzes,imagens 360° graus, áudios, podcasts e muito mais em um único lugar, proporcionando aos estudantes acesso completo ao conhecimento."
             })}
             {createCardSoluction({
                 isFliped: false,
