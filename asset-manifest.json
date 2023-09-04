@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/vec-app/static/css/main.ed725b7b.css",
+    "main.css": "/vec-app/static/css/main.2d153077.css",
     "main.js": "/vec-app/static/js/main.3b6f64e2.js",
     "static/js/787.47d62651.chunk.js": "/vec-app/static/js/787.47d62651.chunk.js",
     "static/media/Foguete.webp": "/vec-app/static/media/Foguete.ffa7dbe6da787b2d56a8.webp",
@@ -25,12 +25,12 @@
     "static/media/frame-21.webp": "/vec-app/static/media/frame-21.1df51fd4eed58ded06a1.webp",
     "static/media/pixelbook-go.webp": "/vec-app/static/media/pixelbook-go.0ef924da8e1993a5a105.webp",
     "index.html": "/vec-app/index.html",
-    "main.ed725b7b.css.map": "/vec-app/static/css/main.ed725b7b.css.map",
+    "main.2d153077.css.map": "/vec-app/static/css/main.2d153077.css.map",
     "main.3b6f64e2.js.map": "/vec-app/static/js/main.3b6f64e2.js.map",
     "787.47d62651.chunk.js.map": "/vec-app/static/js/787.47d62651.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ed725b7b.css",
+    "static/css/main.2d153077.css",
     "static/js/main.3b6f64e2.js"
   ]
 }
