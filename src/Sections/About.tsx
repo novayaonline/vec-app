@@ -41,7 +41,7 @@ const About = () => {
                             <CardInfo text={'Nossa visão é a conexão global pela educação. Buscamos uma educação mais comunicativa,promovendo o empoderamento social para desenvolver habilidades tanto no trabalho quanto na vida. Acreditamos que a educação deve ser acessível a todos, independentemente de sua localização geográfica ou língua. A V&C lidera esse movimento de mudança e oportunidades educacionais.'} />
                         )}
                         {buttonClicked === 3 && (
-                            <CardInfo text={'Agirmos com propósito, Entregamos soluções com excelência, Construímos em colaboração '} />
+                            <CardInfo text={'Agimos com propósito, entregando soluções com excelência e construindo com colaboração.'} />
                         )}
                         </div>
                     )}

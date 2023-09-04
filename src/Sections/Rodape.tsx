@@ -17,8 +17,8 @@ const Rodape = () => {
                 </div>
                 <div className='dados-vec-rodape'>
                     <div>
-                    <p> <BsTelephoneFill /> (54) 8164-4156 </p>
-                    <p> <BsWhatsapp /> (28) 99988-0837 </p>
+                        <p> <BsWhatsapp /> (54) 8164-4156 </p>
+                        <p> <BsTelephoneFill /> (28) 99988-0837 </p>
                     </div>
                     <p> <AiOutlineMail /> contato@vecedutec.com.br </p>
                 </div>
@@ -33,7 +33,6 @@ const Rodape = () => {
                 <a href='#CoursesAndSolutions' onClick={handleLinkClick}>Revisão Textual</a>
                 <a href='#CoursesAndSolutions' onClick={handleLinkClick}>Tradução e interpretação em LIBRAS</a>
                 <a href='#CoursesAndSolutions' onClick={handleLinkClick}>EAD (E-Learning)</a>
-
             </div>
             <div className='vec-rodape'>
                 <h4>A V&C</h4>

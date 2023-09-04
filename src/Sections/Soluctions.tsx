@@ -65,8 +65,8 @@ const Soluctions = () => {
             {createCardSoluction({
                 isFliped: true,
                 img: AuditoriaIMG,
-                title: "Ferramentas de Auditoria",
-                text: "Oferecemos uma aprendizagem dinâmica e centrada no usuário, repleta de inovação e experiências envolventes.  Além de texto e vídeo, nossa plataforma disponibiliza infográficos, quizzes, imagens 3600, áudios, podcasts e muito mais em um único lugar, proporcionando aosestudantes acesso completo ao conhecimento."
+                title: "Ferramentas de Auditória",
+                text: "Oferecemos uma aprendizagem dinâmica e centrada no usuário, repleta de inovação e experiências envolventes. Além de texto e vídeo, nossa plataforma disponibiliza infográficos, quizzes, 360° graus, áudios, podcasts e muito mais em um único lugar, proporcionando aos estudantes acesso completo ao conhecimento."
             })}
             {createCardSoluction({
                 isFliped: false,
@@ -79,7 +79,7 @@ const Soluctions = () => {
                 isFliped: true,
                 img: TableIMG,
                 title: "Consultoria Pedagócica",
-                text: "Oferecemos apoio completo na elaboração de propostas pedagógicas e educação corporativa, abrangendo roteiros, gravações de vídeos e áudios acessíveis, integração de IA, ferramentas de autoria, e dashboard com indicadores. Formatos EAD, presencial ou híbrido (aulas síncronas e assíncronas). Inserção deUniversidade Corporativa ou  para aprendizado contínuo."
+                text: "Oferecemos apoio completo na elaboração de propostas pedagógicas e educação corporativa, abrangendo roteiros, gravações de vídeos e áudios acessíveis, integração de IA, ferramentas de autoria, e dashboard com indicadores. Formatos EAD, presencial ou híbrido (aulas síncronas e assíncronas). Inserção de Universidade Corporativa ou  para aprendizado contínuo."
             })}
             {createCardSoluction({
                 isFliped: false,
